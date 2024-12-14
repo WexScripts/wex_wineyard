@@ -1,0 +1,138 @@
+	['red_wine_bottle'] = {
+		label = 'Láhev červeného vína',
+		weight = 250,
+		stack = true,
+		close = true,
+		client = {
+			status = { drunk = 50000, thirst = 250000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_wine_red`, pos = vec3(0.0, 0.0, -0.20), rot = vec3(3.3, 3.0, -1.5) },
+			usetime = 2500,
+		}
+	},
+
+	['red_wine_glass'] = {
+		label = 'Skleníčka červéného vína',
+		weight = 250,
+		stack = true,
+		close = true,
+		client = {
+			status = { drunk = 50000, thirst = 250000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `p_wine_glass_s`, pos = vec3(0.01, 0.0, 0.10), rot = vec3(1.0, 1.0, -1.5) },
+			usetime = 2500,
+		}
+	},
+
+	['red_wine_limo'] = {
+		label = 'Vínová červená limonáda',
+		weight = 175,
+		stack = true,
+		close = true,
+		client = {
+			status = { thirst = 100000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.01, 0.0, 0.06), rot = vec3(1.0, 1.0, -1.5) },
+			usetime = 2500,
+		}
+	},
+
+	['red_wine_grapes'] = {
+		label = 'Červené víno',
+		weight = 50,
+		stack = true,
+		close = true,
+		client = {
+			status = { hunger = 50000 },
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+		},
+	},
+	['red_wine_juice'] = {
+		label = 'Červené rozmačkané víno',
+		weight = 50,
+		stack = true,
+		close = true,
+		client = {
+			status = { hunger = 50000 },
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+		},
+	},
+
+	['white_wine_prepared'] = {
+		label = 'Bílé očištěné víno',
+		weight = 50,
+		stack = true,
+		close = true,
+		client = {
+			status = { hunger = 50000 },
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+		},
+	},
+	['white_wine_juice'] = {
+		label = 'Bílé rozmačkané víno',
+		weight = 50,
+		stack = true,
+		close = true,
+		client = {
+			status = { hunger = 50000 },
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+		},
+	},
+	['white_wine_bottle'] = {
+		label = 'Láhev bílého vína',
+		weight = 250,
+		stack = true,
+		close = true,
+		client = {
+			status = { drunk = 50000, thirst = 250000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_wine_white`, pos = vec3(0.0, 0.0, -0.20), rot = vec3(1.0, 1.0, -1.5) },
+			usetime = 2500,
+		}
+	},
+
+	['white_wine_glass'] = {
+		label = 'Skleničká bílého vína',
+		weight = 250,
+		stack = true,
+		close = true,
+		client = {
+			status = { drunk = 50000, thirst = 250000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `p_wine_glass_s`, pos = vec3(0.01, 0.0, 0.10), rot = vec3(1.0, 1.0, -1.5) },
+			usetime = 2500,
+		}
+	},
+	['white_wine_grapes'] = {
+		label = 'Bílé víno',
+		weight = 50,
+		stack = true,
+		close = true,
+		client = {
+			status = { hunger = 50000 },
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+		},
+	},
+	['red_wine_prepared'] = {
+		label = 'Červené očištěné víno',
+		weight = 50,
+		stack = true,
+		close = true,
+		client = {
+			status = { hunger = 50000 },
+			anim = 'eating',
+			prop = 'burger',
+			usetime = 2500,
+		},
+	},
+
